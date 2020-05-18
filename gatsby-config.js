@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
+    title: "Strategically Digital Marketing Ltd",
     author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    description: "WE MAKE PRODUCTS
+THAT SOLVE PROBLEMS. SOMETIMES WE TELL STORIES."
   },
   plugins: [
     'gatsby-plugin-react-helmet',

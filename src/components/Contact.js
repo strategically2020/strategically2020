@@ -4,6 +4,8 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
+            <form name="contact" action="/" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      
                 <form method="post" action="#">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
@@ -28,23 +30,24 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        <a href="hello@strategically.co">hello@strategically.co</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
-                        <span className="icon alt fa-phone"></span>
-                        <h3>Phone</h3>
-                        <span>(000) 000-0000 x12387</span>
+                        <span className="icon alt fa-legal"></span>
+                        <h3>Legal Stuff</h3>
+                        <span>Company Number: 11898834 <br />
+                        VAT Number: 328 9819 52</span>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
-                        Nashville, TN 00000<br />
-                        United States of America</span>
+                        <span>454 Long Lane<br />
+                        London, N2 8JL<br />
+                        UK</span>
                     </div>
                 </section>
             </section>

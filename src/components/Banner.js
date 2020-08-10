@@ -8,7 +8,7 @@ const Banner = (props) => (
             </header>
             <div className="content">
                 <p>WE MAKE PRODUCTS
-                THAT SOLVE PROBLEMS. SOMETIMES WE TELL STORIES.</p>
+                THAT SOLVE PROBLEMS. SOMETIMES WE TELL <a href="https://content.strategically.co/">STORIES</a></p>
                 <ul className="actions">
                     <li><a href="#contact" className="button next scrolly">Get Started</a></li>
                 </ul>

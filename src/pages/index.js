@@ -50,10 +50,9 @@ class HomeIndex extends React.Component {
                                 <h2>Strategically Build Companies</h2>
                             </header>
                             <p>
-We believe something magical happens when you keep the band together for the long haul. We’re creating many products that solve simple problems. Why? We’re creative people by nature who thrive by constantly building.</p>
+                  We believe something magical happens when you keep the band together for the long haul. We’re creating many products that solve simple problems. Why? We’re creative people by nature who thrive by constantly building.</p>
 
-<p>One reality when starting a company is that not everything will work. We’ve built a model that embraces this. We’re profitable, but if something ever went south, we have the capital from other ventures to persist through time. We’re building to last.</p>
-                            <ul className="actions">
+                    <ul className="actions">
                                 <li><Link to="#contact" className="button next">Get Started</Link></li>
 
                             </ul>
